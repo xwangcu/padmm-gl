@@ -1,0 +1,19 @@
+TVGlearn_toolbox: MATLAB toolbox for learning time-varying graphs from multivariate time series data.
+(c) Koki Yamada, Yuichi Tanaka and Antonio Ortega
+
+For (theoretical and practical) details, please refer to the following papers:
+[1]	K. Yamada, Y. Tanaka, and A. Ortega, ÒTime-varying graph learning based on sparseness of temporal variation,Ó in Proc. IEEE Int. Conf. Acoust. Speech. Signal Process., May 2019, pp. 5411Ð5415, doi: 10.1109/ICASSP.2019.8682762.
+[2]	K. Yamada, Y. Tanaka, and A. Ortega, ÒTime-Varying Graph Learning with Constraints on Graph Temporal Variation,Ó arXiv:2001.03346 [cs, eess], Jan. 2020, Accessed: Aug. 05, 2020. [Online]. Available: http://arxiv.org/abs/2001.03346.
+
+Required toolboxes:
+	GSP Toolbox (https://epfl-lts2.github.io/gspbox-html/index.html)
+	UNLocBox (https://epfl-lts2.github.io/unlocbox-html/)
+
+Demo:
+	demo_tvglearn: Demo code learns time-varying graphs
+
+
+Functions: 
+	tvglearn_normal: this function is based on the paper (http://proceedings.mlr.press/v51/kalofolias16.html)
+	tvglearn_tikhonov: this function is based on the paper [1].
+	tvglearn_fusedlasso and tvglearn_grouplasso: The details of these methods are described in [2]
